@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "gatsby develop"
+    "develop": "gatsby develop"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^2.17.6",
+    "gatsby": "^2.17.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }

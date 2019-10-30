@@ -12,7 +12,7 @@
   color: rgb(171, 136, 245);
   font-weight: 400;
   align-items: center;
-  box-shadow: 0 0 5px #555;
+  box-shadow: 0 0 5px rgb(140, 224, 235);
 }
 
 .label {
@@ -25,7 +25,7 @@
 .input,
 .button {
   grid-column: 2 / 3;
-  border-radius: 0.1rem;
+  border-radius: 0.25rem;
   font-size: 1rem;
 }
 
