@@ -1,5 +1,5 @@
 import React from 'react'
-import Amplify from 'aws-amplify'
+import Amplify from '@aws-amplify/core'
 import config from '../aws-exports'
 import '../global.css'
 import ContactForm from '../components/ContactForm'

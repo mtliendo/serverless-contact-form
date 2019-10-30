@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react'
-import { API, graphqlOperation } from 'aws-amplify'
+import API, { graphqlOperation } from '@aws-amplify/api'
 import { sendEmail } from '../graphql/queries'
 
 import styles from './contactform.module.css'
