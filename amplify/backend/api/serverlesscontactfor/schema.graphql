@@ -1,0 +1,11 @@
+input EmailContentInput {
+  fullname: String!
+  email: AWSEmail!
+  subject: String!
+  body: String!
+}
+
+type Query {
+  sendEmail(input: EmailContentInput!): String!
+    @function(name: "contactfunction-${env}")
+}

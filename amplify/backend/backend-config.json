@@ -1,0 +1,27 @@
+{
+	"api": {
+		"serverlesscontactfor": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "key to use contact form",
+							"apiKeyExpirationDays": "30"
+						}
+					}
+				}
+			}
+		}
+	},
+	"function": {
+		"contactfunction": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-serverlesscontactfor-dev-223303-authRole",
+            "UnauthRoleArn": "arn:aws:iam::345394642655:role/amplify-serverlesscontactfor-dev-223303-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::345394642655:role/amplify-serverlesscontactfor-dev-223303-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-serverlesscontactfor-dev-223303-deployment",
+            "UnauthRoleName": "amplify-serverlesscontactfor-dev-223303-unauthRole",
+            "StackName": "amplify-serverlesscontactfor-dev-223303",
+            "StackId": "arn:aws:cloudformation:us-east-1:345394642655:stack/amplify-serverlesscontactfor-dev-223303/fadf24a0-fac5-11e9-9cf7-0e03eb938c18"
+        }
+    }
+}
