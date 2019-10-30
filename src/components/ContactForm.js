@@ -1,4 +1,7 @@
 import React, { useReducer } from 'react'
+import { API, graphqlOperation } from 'aws-amplify'
+import { sendEmail } from '../graphql/queries'
+
 import styles from './contactform.module.css'
 
 const INITIAL_STATE = {
@@ -19,6 +22,7 @@ const reducer = (state, action) => {
       return INITIAL_STATE
   }
 }
+
 const ContactForm = () => {
   const [state, dispatch] = useReducer(reducer, INITIAL_STATE)
 
@@ -32,7 +36,10 @@ const ContactForm = () => {
 
   const handleFormSubmit = e => {
     e.preventDefault()
-    console.log(state)
+
+    API.graphql(graphqlOperation(sendEmail, { input: state }))
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
   }
   return (
     <form className={`${styles.form}`} onSubmit={handleFormSubmit}>
