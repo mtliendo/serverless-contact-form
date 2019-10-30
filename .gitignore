@@ -4,9 +4,10 @@ build/
 .cache/
 .env
 
-# Build directory
+# Build directory 
 /public
 .DS_Store
+haters/
 
 #amplify
 amplify/\#current-cloud-backend
