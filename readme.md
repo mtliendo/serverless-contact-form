@@ -1,6 +1,6 @@
 # Serverless Contact Form
 
-(Video Series and Blog Post coming soon!)
+🚨Video Series and Blog Post coming soon!🚨
 
 This is an example of how to use [AWS Amplify](https://aws-amplify.github.io/) to create a contact form. The form is contained within a component so that it may live at any depth in your application.
 
